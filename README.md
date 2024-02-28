@@ -10,7 +10,7 @@ My goal in this project is to use Power BI to perform a Sales Data Analysis proj
 
 ![1659324505788](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/a4a90eca-a476-4a00-805d-8941fbac930d)
 
-######## Now it is time to begin our Analysis.
+#### Now it is time to begin our Analysis.
 
   . Under the **Home tab**, click on **Get Data**
   . Go to **Excel Workbook.** A new window will pop out for you to select your data.
@@ -46,7 +46,7 @@ My goal in this project is to use Power BI to perform a Sales Data Analysis proj
 ![1659324736892](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/d839ed38-d4f5-4ac9-beeb-1234f6a0e628)
 
 
-########## 1.Visualize Sales by location
+#### 1.Visualize Sales by location
 
    . Click on Stacked- Bar Chart
    . Drag Geo under location table to the X-axis
@@ -56,7 +56,7 @@ My goal in this project is to use Power BI to perform a Sales Data Analysis proj
 ![1659324759212](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/7056ad2b-acb2-476b-9b25-2459442b26bd)
 
 
-########## 2.What is the company’s Total Sales?
+#### 2.What is the company’s Total Sales?
 
     . Go to the sales table on the left side of the canvas
     . Right click on **Amount** and select **New measure**
@@ -67,10 +67,10 @@ My goal in this project is to use Power BI to perform a Sales Data Analysis proj
 ![1659324785806](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/5cee194a-7b3f-461e-8acc-66a1088699bf)
 
 
-############ A new measure with name Total sales is created.
+#### A new measure with name Total sales is created.
 
 
-############## 3.What is our Total Cost as a company?
+#### 3.What is our Total Cost as a company?
 
     . We don’t have the cost column in our tables, so we have to create a new column for our cost.
     . Go to the data view. The second icon under the report view at the far right of the canvas.
@@ -86,7 +86,7 @@ My goal in this project is to use Power BI to perform a Sales Data Analysis proj
    . Hit Enter and return to the report view.
    . Now repeat the steps you used to create the Total Sales measure and create **Total Cost.** The formula for this is **Total Cost = sum(sales[Cost]).**
    
-############## 4.What is the company’s Total Profit?
+#### 4.What is the company’s Total Profit?
 
     . Again, create a **New measure** and name it **Total Profit**
     . Type the formula **Total Profit = [Total Sales] – [Total Cost]**
@@ -94,13 +94,13 @@ My goal in this project is to use Power BI to perform a Sales Data Analysis proj
     . **Type Profit% = divide ([Total Profit], [Total Sales])**
 
 
-############## 5.Has the Company met its Profit target?
+#### 5.Has the Company met its Profit target?
 
   . Create a **New measure** and label it **Profit Target**
   . Type the formula **Profit Target Achieved? = if([Profit%] > 0.5, “Yes”, “No”)**
 
 
-############## Time to start putting them all together on our canvas 😊
+#### Time to start putting them all together on our canvas 😊
 
    . Go under **Visualizations** and select **cards**
    . Drag **Total Cost** and place in the fields box
@@ -122,7 +122,7 @@ My goal in this project is to use Power BI to perform a Sales Data Analysis proj
 ![1659324916933](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/d4b209c8-d284-4267-9ac9-8711de9b3f51)
 
 
-############ Now, we want to add currency sign to our values.
+#### Now, we want to add currency sign to our values.
 
      . Click on the Total Cost measure on the right pane 
      . Go to Format and change General to Currency
@@ -139,7 +139,7 @@ My goal in this project is to use Power BI to perform a Sales Data Analysis proj
 ![1659324958357](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/a471c37e-160a-4db7-9d69-5d223ac32da0)
 
 
-############## We want to see the trends of each metric over the months.
+#### We want to see the trends of each metric over the months.
 
 Click on an **Area Chart** under the **Visualization** pane.
 Drag the **Month** column under the **Date Hierarchy** to the X-axis and drag the **Total Cost** to the Y-axis.
@@ -155,7 +155,7 @@ Drag the **Month** column under the **Date Hierarchy** to the X-axis and drag th
 ![1659324997479](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/81209d0a-32f1-40f0-8c7b-4a29d9158f9c)
 
 
-############ We want to see the performance of the Salespersons 
+#### We want to see the performance of the Salespersons 
 
       . Click on **Table** under the Visualization pane
       . Add Salesperson, Total Profit, Profit% and Profit Target Acchieved? To the Values column
@@ -167,14 +167,14 @@ Drag the **Month** column under the **Date Hierarchy** to the X-axis and drag th
 ![1659325070285](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/45355907-e817-4103-a61e-12cd4da3bb96)
 
 
-############## We want to see performance of our products.
+#### We want to see performance of our products.
 
      . Repeat same steps for that of Salespersons
 
      
 ![1659325093589](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/929c0d6d-f6d2-46c4-b385-c272ff380d87)
 
-############## Now bring back Sales per Country
+#### Now bring back Sales per Country
 
 ![1659325114248](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/40f617f6-5db9-457a-877b-0abe74e9ea82)
 
@@ -186,7 +186,7 @@ Drag the **Month** column under the **Date Hierarchy** to the X-axis and drag th
 
 ![1659325133550](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/182e7fa2-52bf-4d6d-ad4e-709d496ef123)
 
-################ Now we want to add title to our dashboard
+#### Now we want to add title to our dashboard
 
     . Type a title of your choice. I am going for **Sales Dashboard Analysis**
 
@@ -197,7 +197,7 @@ Drag the **Month** column under the **Date Hierarchy** to the X-axis and drag th
 ![1659325181412](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/f88a9c8a-b57f-4f41-a3de-0296661dbb13)
 
 
-############## Now we want to slice or filter our visuals 
+#### Now we want to slice or filter our visuals 
 
       . **Add a slicer visual to the canvas and drag Teams under the people table to its values.**
 
@@ -221,7 +221,7 @@ Drag the **Month** column under the **Date Hierarchy** to the X-axis and drag th
 ![1659325374390](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/5a37abae-c7b4-4d63-ad1a-7e113d3df918)
 
 
-################ Share your Dashboard
+#### Share your Dashboard
 
      . **Log in with your azubi email by clicking on sign in at the top right corner.**
 
