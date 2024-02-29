@@ -1,5 +1,7 @@
 # Sales-Data-Analysis-Project-Using-Power-BI
 
+![Sales Analysis Dashbord PowerBI](https://github.com/justinjabo250/Sales-Data-Analysis-Project-Using-Power-BI/assets/115732734/9659bcb7-b463-4f14-bd81-524c749edb90)
+
 My goal in this project is to use Power BI to perform a Sales Data Analysis project using a dataset provided by the company. This will allow me to explore and extract patterns and insightful, beneficial information that managers and stakeholders can use to enhance decision-making based on data analytics and take action to improve production and result in an amazing and encouraging increase in sales.
 
 ## I have listed the tasks that must be completed in order to reach our ultimate decision and the intended result of the preferred solutions here.
